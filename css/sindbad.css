@@ -986,12 +986,28 @@ header .main-nav .mega-menu .links a i {
     font-size: 18px;
     line-height: 1.7;
 }
+@media (max-width: 767px ) {
+    .how .container .box .card img {
+        width: 60px;
+    }
+    .how .container .box .card .text h3 {
+        font-size: 20px;
+    }
+    .how .container .box .card .text p {
+        font-size: 15px;
+    }
+}
 /* Ens How */
 /* Start Evevts */
 .events {
     padding-top: var(--padding-section);
     padding-bottom: var(--padding-section);
     position: relative;
+}
+@media (max-width: 767px ) {
+    .events .dots {
+        display: none;
+    }
 }
 .events .container {
     display: flex;
@@ -1089,7 +1105,6 @@ header .main-nav .mega-menu .links a i {
 .events .subscribe form input:focus {
     outline: none;
 }
-
 .events .subscribe form input[type="email"] {
     flex: 1;
     padding: 20px;
